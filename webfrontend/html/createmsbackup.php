@@ -1,7 +1,6 @@
 <?php
 // LoxBerry Miniserver Backup NG Plugin
 // Christian Woerstenfeld - git@loxberry.woerstenfeld.de
-// C:\Users\Norbert\Downloads\createmsbackup.php
 
 // Header output
 header('Content-Type: text/plain; charset=utf-8');
@@ -1998,7 +1997,7 @@ if ( ( $at_least_one_error == 1 || $at_least_one_warning == 1 || $at_least_one_s
 }
 else
 {
- debug(__line__,$L["MINISERVERBACKUP.INF_0037_DEBUG_NO"],6);
+    debug(__line__,$L["MINISERVERBACKUP.INF_0037_DEBUG_NO"],6);
 }
 
 sleep(3); // To prevent misdetection in createmsbackup.pl
